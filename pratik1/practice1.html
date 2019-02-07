@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 150px;
+}
+
+.left {
+  width: 1000px;
+}
+
+.middle {
+  width: 150px;
+}
+.right{
+  width: 150px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p{
+  color: gray;
+  font-size: 14px;
+  font-family: verdana;
+  letter-spacing: 0,01em;
+}
+h1{
+  color: white;
+  font-size: 12px;
+}
+ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li{
+  text-align: left;
+  color: blue;
+  float: left;
+  font-family: "open Sans";
+
+}
+p strong{
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left" style="background-color:black;">
+    <h1>DESIGNED BY COLLIS TA'EDD, DO WITH THIS AS YOU PLEASE</h1>
+    <p>You can read photshop tutrial for creating the desing at.
+    <strong>PSDTUTS,</strong> You can read a PS->HTML tutrial for creating<br>
+    the site at <strong>NETTUTS</strong> and you can learn how to turn the html
+    into a Wordpress theme in the upcoming book <strong>How to be<br>
+    a Rockstar Wordpress Designer</strong></p>
+  </div>
+  <div class="column middle" style="background-color:black;">
+    <h1>MORE LINKS</h1>
+    <ul>
+      <li><a href="#">VECTORTUTS</a></li>
+      <li><a href="#">FlashDen</a></li>
+      <li><a href="#">Audiojungle</a></li>
+      <li><a href="#">FreelanceSwitch</a></li>
+      <li><a href="#">Faveup</a></li>
+    </ul>
+  </div>
+  <div class="column right" style="background-color:black;">
+     <h1>RSS</h1>
+     <ul>
+      <li><a href="#">RSS Feed</a></li>
+      <li><a href="#">What is RSS?</a></li>
+     </ul>
+  </div>
+</body>
+</html>
