@@ -10,48 +10,37 @@
      margin: 0;
      padding: 0;
    }
-   .container{
-     text-align: center;
-     margin-top: 360px;
-   }
-   .btn1{
-     width: 150px;
-     height: 50px;
-     border style: none;
-     background:#3498db;
+
+   .btn {
+     border-style: none;
      padding: 10px 20px;
      font-size: 20px;
      font-family: "Lucida Console";
      cursor: pointer;
      margin: 10px;
      color: white;
-     border-top-left-radius: 10px;
-     border-top-right-radius:10px;
-     border-bottom-right-radius:10px;
-     border-bottom-left-radius: 10px;
+     border-radius: 10px;
    }
-   .btn2{
-     width: 150px;
-     height: 50px;
-     border style: none;
-     background:#3498db;
-     padding: 10px 20px;
-     font-size: 20px;
-     font-family: "Lucida Console";
-     cursor: pointer;
-     margin: 10px;
-     color: gray;
-     border-top-left-radius: 10px;
-     border-top-right-radius:10px;
-     border-bottom-right-radius:10px;
-     border-bottom-left-radius: 10px;
-}
 
+   .btn1 {
+     background:#3498DB;
+   }
 
+   .btn2 {
+     background:#737373;
+    }
+
+    .btn1:hover {
+      background-color: #3DB0FD;
+    }
+
+    .btn2:hover {
+      background-color: #8C8C8C;
+    }
  </style>
 
  <body>
-   <div class="container">
+   <div class="btn-group">
      <button class="btn btn1">Button 1</button>
      <button class="btn btn2">Button 2</button>
  </body>
